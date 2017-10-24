@@ -1,0 +1,35 @@
+/*Selector {property:value}*/
+nav {
+  border: 2px solid #1d1d1d;
+  margin: 15px ;
+  padding: 15px;
+}
+#indexpage .mainnavigation li:nth-child(2)  {
+  background-color: #1d1d1d;
+  color:white;
+
+}
+.cell {
+    outline: 1px solid blue;
+    background-color: white;
+  margin: 15px auto;
+  padding: 15px auto;
+}
+.grid-container{
+  outline: 1px solid green;
+}
+.grid-x{
+  outline: 1px solid red;
+}
+.headerimg {
+  background-image:url("../images/tree.png") ;
+  background-attachment: fixed;
+}
+body{
+  background-image:url("../images/logo.svg");
+  background-size: cover;
+  background-position: center;
+    background-attachment: fixed;
+
+
+}
